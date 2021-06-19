@@ -12,6 +12,7 @@ app.get("/", function(req, res){
 
     var today = new Date();
     var currentDay = today.getDay();
+    // also possible to use a switch statement
     var weekday=new Array(7);
     weekday[0]="Monday";
     weekday[1]="Tuesday";
